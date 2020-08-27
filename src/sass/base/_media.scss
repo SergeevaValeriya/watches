@@ -20,6 +20,11 @@
             align-items: flex-start;
         }
     }
+    .catalog {
+        .container {
+            max-width: 645px;
+        }
+    }
 }
 @media (max-width: 991px) {
     .container {
@@ -68,6 +73,15 @@
             margin-top: 21px;
             font-size: 13px;
         }
+    }
+    .consultation {
+        &__descr {
+            font-size: 19px;
+        }
+        .title {
+            font-size: 32px;
+        }
+        
     }
 }
 
