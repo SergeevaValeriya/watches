@@ -16,7 +16,10 @@
         width: 70px;
         display: flex;
         justify-content: space-between;
+        
     }
+
+
     &__subheader{
         margin-top: 38px;
         color: #0d0d0d;
@@ -32,5 +35,12 @@
         a {
             color:red;
         }
+    }
+}
+
+.animation {
+    animation: heartbeat 2s ease infinite;
+    &:hover {
+        animation-play-state: paused;
     }
 }
